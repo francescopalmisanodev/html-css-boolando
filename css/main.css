@@ -73,7 +73,7 @@ ul {
 }
 
 /* heart container  */
-.img div:first-child{
+.img .hearts{
     width: 25px;
     height: 25px;
     text-align: center;
@@ -84,12 +84,12 @@ ul {
     background-color: white;
     color: black;
 }
-.img div:first-child:hover{
+.img .hearts:hover{
     color: #EB0037;
 }
 
 /* tag container */
-.img div:last-child{
+.img .tag{
     height: 10px;
     font-size: 10px;
     position: absolute;
