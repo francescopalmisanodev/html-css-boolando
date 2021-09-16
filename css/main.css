@@ -7,7 +7,6 @@
 .container {
     width: 900px;
     margin: 0 auto;
-    background: lightblue;
     padding: 20px 0;
 }
 ul {
@@ -17,19 +16,60 @@ ul {
 }
 
 .product{
+    display: inline-block;
     width: calc(100% / 3);
+    margin-right: -3px;
+    padding: 0 4px;
     height: 400px;
 }
 
+/* img section */
 .img {
     width: 100%;
     height: 85%;
     position: relative;
+}
+.img.type-1{
     background-image: url(../img/1.webp);
     background-size: cover;
 }
-.img:hover{
+.img.type-2{
+    background-image: url(../img/2.webp);
+    background-size: cover;
+}
+.img.type-3{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+}
+.img.type-4{
+    background-image: url(../img/4.webp);
+    background-size: cover;
+}
+.img.type-5{
+    background-image: url(../img/5.webp);
+    background-size: cover;
+}
+.img.type-6{
+    background-image: url(../img/6.webp);
+    background-size: cover;
+}
+.img.type-1:hover{
     background-image: url(../img/1b.webp);
+}
+.img.type-2:hover{
+    background-image: url(../img/2b.webp);
+}
+.img.type-3:hover{
+    background-image: url(../img/3b.webp);
+}
+.img.type-4:hover{
+    background-image: url(../img/4b.webp);
+}
+.img.type-5:hover{
+    background-image: url(../img/5b.webp);
+}
+.img.type-6:hover{
+    background-image: url(../img/6b.webp);
 }
 
 /* heart container  */
